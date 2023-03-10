@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    width:400px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(226, 226, 226);
+    color:rgb(26, 26, 26);
+}
+
+header{
+    background-color: rgb(231, 231, 231);
+    padding:4px;
+    padding-left: 50px;
+    text-align:left;
+    font-size:35px;
+    color:rgb(26, 26, 26);
+}
+
+nav {
+    float:left;
+    width:24%;
+    background:rgb(209, 209, 209);
+    padding:20px;
+    height: 580px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 76%;
+    background-color: #cccccc;
+    height: 580px;
+}
+
+section::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+p {
+    padding: 0px;
+}
+
+footer {
+    background-color: rgb(136, 136, 136);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+a:link, a:visited {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(187, 187, 187);
+  }
